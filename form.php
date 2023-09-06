@@ -10,7 +10,7 @@
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // collect value of input field
+    // collect value of input fields
     $name = $_POST['form.php'];
     if (empty($name)) {
         echo "Name is empty";
