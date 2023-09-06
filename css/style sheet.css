@@ -1,0 +1,60 @@
+h3
+{
+color:red;
+}
+
+/*bg color*/
+body
+{
+background-image:url("../images/img 2.jpg");
+background-attachment: fixed;
+opacity:0.8;
+}
+h1
+{
+border-style:solid;
+border-width:20px;
+}
+h1{
+    color:crimson;
+    font-style: italic;
+}
+h2,#sel
+{
+border-color: blue;
+color:darkmagenta;
+
+}
+#axy
+{
+border: solid 1px red;
+}
+a{
+    border:solid 1px black;
+    display: block;
+    width: 200px;
+}
+#navigator {
+    display: none;
+    font-family: 'Titillium Web',sans-serif;
+    left: 0;
+    position: fixed;
+    top: 199px;
+    z-index: 100;
+}
+
+.def
+{
+ border-style: dashed;   
+position: fixed;
+right:20px;
+font-style: italic;
+
+
+}
+div>p #bb
+{
+border:solid 1px blue;
+height:150px;
+
+}

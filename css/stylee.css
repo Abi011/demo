@@ -1,0 +1,104 @@
+h1
+{
+
+    font-style: italic;
+    border:dotted 2px violet;
+}
+div
+{
+border: solid 1px blue;
+height:80px;
+
+
+}
+.row
+{
+border: solid 1px red;
+height:100px;
+}
+.col
+{
+border: solid 2px green;
+float:left;
+height:100px;
+width:33%;
+
+}
+
+.row2
+{
+border: solid 2px blue;
+
+height:47%;
+width:50%;
+}
+.aw
+{
+float:right;  
+border:dashed 2px green;
+height:30px;
+width:10%;
+
+}
+
+.box
+{
+border: dashed 2px black;
+width: 700px;
+height:100%;
+display:flex;
+flex-direction:row-reverse;
+flex-wrap:row wrap;
+justify-content:space-around;
+align-items:flex-start;
+}
+.box>div
+{
+border:solid 2px blue;
+border-radius: 4px;
+height:20%;
+flex-basis:200px;
+flex-grow:0;
+flex-wrap:nowrap;
+}
+
+.flex-container>div{
+background-color:blueviolet;
+font-size:30px;
+height:28px;
+width:fit-content;
+}
+.box 1
+{
+  flex-basis:100px;
+  flex-grow:1;
+
+}
+.box 2
+{
+flex-basis:100px;
+flex-grow:1;
+}
+.box 3
+{
+flex-basis:100px;
+flex-grow:1;
+
+
+
+}
+
+
+
+
+
+
+
+.flex-container{
+    
+    flex-direction:column-reverse;
+    display:flex;
+    
+
+
+}
