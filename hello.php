@@ -202,34 +202,59 @@ function ColorName($c_name)
 ColorName("red");
 ColorName("blue");
 ColorName("pink");
+echo "<br>";
+echo "<br>";
+
+        //superglobals
+
+        $x = 5;
+        $y = 25;
+         
+        function multiplication() {
+          $GLOBALS['z'] = $GLOBALS['x'] * $GLOBALS['y'];
+        }
+         
+        multiplication();
+        echo $z;     
+        echo "<br>";
+
+  echo $_SERVER['SCRIPT_NAME'];
+  echo $_SERVER['REQUEST_TIME'];     
+  echo "<br>";
+
+          //form handling
+ 
 
 
+ echo"<br>";
+ echo "Today is " . date("Y/m/d") . "<br>";
+ echo "Today is " . date("l");
+ echo "<br>";
+
+ echo date("Y");
+ echo "<br>";
+ echo "<br>";
+
+echo "The time is". date("h;i;sa");
+echo "<br>";
+echo "<br>";
+
+        //creating date and time
+
+ $d= mktime(5,30,15,07,10,2023);
+ echo "Created date is "   .  date("y-m-d h:i:sa",$d);
+ echo "<br>";
+ echo "<br>";
+
+ $d=strtotime("5:48pm April 03 2023");
+ echo "Created date is "  . date("y-m-d h:i:sa", $d);
 
 
+      //INCLUDE
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ include 'form.php';     
+echo "<br>";
 
 
  
